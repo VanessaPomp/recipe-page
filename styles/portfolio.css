@@ -67,16 +67,16 @@ p {
 }
 
 .project-description {
-  padding: 2px 60px;
+  padding: 5px 60px;
 }
 
-@media (max-width: 200px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 30px;
   }
 
   .project-description {
@@ -86,5 +86,9 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .btn-branding-outline {
+    margin-bottom: 20px;
   }
 }
