@@ -21,28 +21,28 @@
 <body>
     <div class="container">
         <nav class="d-flex justify-content-between">
-            <a href="/">
-                <img src="media/logo.png" class="logo d-none d-md-block" alt="">
-                <img src="media/logo_small.png" class="logo d-block d-md-none" alt="">
+            <a href="/" title="Homepage">
+                <img src="media/logo.png" class="logo d-none d-md-block" alt="Vanessa Logo">
+                <img src="media/logo_small.png" class="logo d-block d-md-none" alt="Vanessa Logo">
             </a>
             <ul>
-                <li class="active">
-                    <a href="/">
+                <li>
+                    <a href="/" title="Homepage">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="/about.html">
+                    <a href="/about.html" title="About Vanessa">
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="/work.html">
+                    <a href="/work.html" title="Vanessa's work">
                         Work
                     </a>
                 </li>
-                <li>
-                    <a href="/contact.html">
+                <li class="active">
+                    <a href="/contact.html" title="Contact Vanessa">
                         Contact
                     </a>
                 </li>
@@ -79,5 +79,39 @@
                 </a>
             </p>
         </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>
+                        Work Inquiry
+                    </h3>
+                    <p class="text-muted">
+                        Let's work together
+                    </p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding nt-3" title="Contact Vanessa"> Contact me </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:vanessa.pomp@yahoo.de" class="email-link" title="Email Vanessa">
+                    vanessa.pomp@yahoo.de
+                </a>
+            </div>
+            <div class="social-links d-flex justify-content-center mb-5">
+                <a href="https://www.instagram.com/vanessapomp1992/" target="_blank" title="Instagram profile"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://github.com/VanessaPomp" target="_blank" title="Github profile"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vanessa-pomp-b76009a3/" target="_blank" title="LinkedIn profile"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-center mt-5">
+                This project was coded by Vanessa and is
+                <a href="https://github.com/VanessaPomp/recipe-page" target="_blank">
+                    open-sourced.
+                </a>
+            </p>
+        </footer>
     </div>
 </body>
